@@ -9,8 +9,6 @@ Let’s build something amazing together!
 `;
 
 export const ABOUT_ME = `
-Sure! Here’s the revised version that includes software development:
-
 I am a dedicated and versatile Software Developer with a passion for creating efficient and user-friendly web applications. With experience in React, the MERN stack, and general software development, I have a strong foundation in advanced data structures and algorithms that enhances my ability to build scalable solutions. My journey in development began with a deep curiosity about technology, evolving into a career where I continually learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality results. Outside of coding, I love staying`
 
 export const EXPERIENCE = [
