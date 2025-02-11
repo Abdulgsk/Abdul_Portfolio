@@ -1,7 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { DiJava } from "react-icons/di"
 import { SiMongodb } from "react-icons/si"
-import { SiCplusplus } from "react-icons/si"
 import { SiMysql } from "react-icons/si"
 import { SiExpress } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa"
