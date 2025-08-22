@@ -1,64 +1,75 @@
-import  p1 from "../assets/proj1.jpeg";
-import  p2 from "../assets/proj2.jpeg";
-import  p3 from "../assets/proj3.jpeg";
+import p1 from "../assets/p1.jpg";
+import p2 from "../assets/p2.jpg";
+import p3 from "../assets/proj1.jpeg";
+
 
 export const HERO_CONTENT = `
-Hi, I'm a passionate Software Developer with a talent for transforming ideas into reality. I tackle complex challenges and create seamless user experiences, blending creativity with functionality. As a dedicated team player, I adapt quickly to new environments and technologies, ensuring I’m always ready to contribute to my team’s success.
+Aspiring Software Development Engineer with strong problem-solving skills, hands-on experience in full-stack development, and a proven track record of solving 1000+ algorithmic problems on LeetCode. I transform complex challenges into elegant solutions while maintaining a focus on scalability and user experience.
 
-Let’s build something amazing together!
+Let's build something amazing together!
 `;
 
 export const ABOUT_ME = `
-I am a dedicated and versatile Software Developer with a passion for creating efficient and user-friendly web applications. With experience in React, the MERN stack, and general software development, I have a strong foundation in advanced data structures and algorithms that enhances my ability to build scalable solutions. My journey in development began with a deep curiosity about technology, evolving into a career where I continually learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality results. Outside of coding, I love staying`
+I am a dedicated Software Development Engineer pursuing my Bachelor's in Information Technology at Sri Shakthi Institute of Engineering and Technology (CGPA: 8.0). With expertise in full-stack development using the MERN stack and a strong foundation in data structures and algorithms, I've successfully solved over 1000+ problems on LeetCode. I thrive in collaborative environments, having worked with cross-functional teams and mentored junior developers. My experience spans from developing AI-powered platforms to publishing reusable backend tools on NPM. I'm fluent in English, Tamil, and Hindi, and passionate about creating efficient, scalable solutions that make a difference.`;
 
 export const EXPERIENCE = [
     {
-        year:"Oct 2024 - Nov 2024 ",
-        role:"Software Development",
-        company:"ShadowFox",
-        description:"During my internship, I developed basic applications that enhanced my programming and problem-solving skills. I collaborated with the team to design and implement features, focusing on user experience and functionality. This experience improved my proficiency in [specific programming languages or technologies] and provided valuable insights into the software development lifecycle.",
-        technologies:["Html","Css","Javascript"]
+        year: "Oct 2024 - Jan 2025",
+        role: "Software Developer Intern",
+        company: "BrewBrains Technologies",
+        description: "Developed a full-stack iOS scanner application using the MERN stack. Collaborated with a cross-functional team of 5 engineers in an Agile environment. Built responsive frontend components and scalable backend APIs. Optimized performance, reducing application load time by 20%.",
+        technologies: ["MongoDB", "Express.js", "React", "Node.js", "iOS"]
     },
     {
-        year:"June 2023 - July 2024 ",
-        role:"Google Data Analatyics",
-        company:"Coursera",
-        description:"Completed a comprehensive data analytics course on Coursera, where I learned key concepts in data analysis, visualization, and statistical techniques. Gained hands-on experience with tools like Excel, Mysql, and Tableau, and applied analytical skills to real-world datasets. This course enhanced my ability to extract insights and make data-driven decisions.",
-        technologies:["Excel","Mysql"]
+        year: "2024 - 2025",
+        role: "Software Development Freelancer",
+        company: "Freelancing",
+        description: "Freelanced for multiple clients, delivering full-stack projects including React Native, MERN, and Spring Boot applications. Managed project lifecycles from requirement gathering to deployment.",
+        technologies: ["React Native", "MERN Stack", "Spring Boot"]
     },
     {
-        year:"Sep 2023 - Nov 2024 ",
-        role:"IBM FullStack Software Developer",
-        company:"Coursera",
-        description:"Completed the IBM Software Developer course, where I acquired essential programming skills and software development methodologies. Gained hands-on experience with languages such as Python and Java, and learned about software design, version control, and agile practices. This course equipped me with practical knowledge to build and deploy applications effectively.",
-        technologies:["Java","CloudComputing","SDK Development"]
-    },
-    
-]
+        year: "Sep 2024 - Oct 2024",
+        role: "Java Development Intern",
+        company: "ShadowFox",
+        description: "Built Mail Management and Bank Management with ATM console applications using Java and OOP principles. Designed modular architecture with clean separation of concerns for maintainability and scalability.",
+        technologies: ["Java", "OOP", "Console Applications"]
+    }
+];
 
 export const PROJECTS = [
     {
-        title : "Cake Bakery System Online",
-        image : p1 ,
-        description :"Developed an Online Cake Bakery System that allows users to browse, customize, and order cakes through a user-friendly interface. The project was built using PHP for server-side scripting, HTML, CSS, and JavaScript for front-end development, and SQL for database management.",
-        technologies :["PHP","Html","Css","Javascript","Sql"],
+        title: "CineTicket",
+        image: p1,
+        description: "Developed an AI-powered movie booking system with real-time seat selection and payment processing. Integrated an AI chatbot for personalized movie recommendations and built an admin dashboard with analytics. Handled concurrent booking conflicts and secure payment gateway integration.",
+        technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe API"],
+        demoLink: "https://movie-ticket-booking-system-seven.vercel.app"
     },
     {
-        title : "Sugars N Brownies",
-        image :  p2 ,
-        description :"Developed the Sugars N Brownies app using React Native, enabling users to order and customize cakes seamlessly. The app leverages Supabase as the backend database for efficient data management and real-time updates.",
-        technologies :["Javascript","TypeScript","Sql","Supabase","React-Native"],
+        title: "Backend Scaffold",
+        image: p2,
+        description: "Published a reusable backend scaffolding tool with 100+ downloads on NPM. Provides pre-configured database connections and RESTful API templates. Includes comprehensive documentation and integrated testing frameworks.",
+        technologies: ["Node.js", "Express.js", "MongoDB", "MySQL", "PostgreSQL"],
+        demoLink: "https://www.npmjs.com/package/backend-studio"
     },
     {
-        title : "E-Commerce",
-        image :  p3 ,
-        description :"Developed a full-featured eCommerce platform using the MERN stack (MongoDB, Express.js, React, Node.js), allowing users to browse, search, and purchase products online.",
-        technologies :["React-js","MongoBD","Express","Nodejs"],
-    },
-]
+        title: "Sugars n Brownies",
+        image: p3,
+        description: "Developed and published a Bakery Management Application with patent (Application No: 202441048577). Published research paper in IJIRSET journal. The application streamlines bakery operations with modern technology integration.",
+        technologies: ["React Native", "Node.js", "Database Management", "API Integration"]
+    }
+];
+
+export const SKILLS = {
+    programming: ["Java", "JavaScript", "C", "SQL"],
+    frameworks: ["React.js", "Node.js", "Express.js", "Next.js", "Flask", "Tailwind CSS"],
+    databases: ["MongoDB", "MySQL"],
+    tools: ["Windows", "Unix/Linux", "Git", "Postman", "VS Code", "Figma", "NPM"],
+    core: ["Data Structures & Algorithms", "OOPS", "REST APIs", "Problem Solving"],
+    languages: ["English", "Tamil", "Hindi"]
+};
 
 export const CONTACT = {
-    address : "4/12 Sundarapuram, Coimbatore, 641024, TamilNadu ",
-    phone : 6383677703,
-    email : "abdul29112004@gmail.com",
+    address: "4/12 Sundarapuram, Coimbatore, 641024, TamilNadu",
+    phone: 6383677703,
+    email: "abdul29112004@gmail.com",
 };
